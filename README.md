@@ -1,6 +1,6 @@
 # programming-task
-A frontend code test
-Solution created with HTML, CSS and React
+A frontend code test.
+Solution created with HTML, CSS and React.
 
 To use this project you need:
 - node js
