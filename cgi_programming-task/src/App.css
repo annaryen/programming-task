@@ -1,0 +1,146 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat');
+@import url('https://fonts.googleapis.com/css?family=Source+Sans+Pro');
+
+* {
+  margin: 0;
+}
+
+a:focus-visible {
+  color: #2EC4B6;
+}
+
+a:hover {
+  color: #2EC4B6;
+  border: none;
+}
+
+header {
+  background-color: #000910;
+  padding: 15px 20px;
+  display: flex;
+  align-items: center;
+}
+
+#logo {
+  width: 150px;
+  background-color: none;
+  margin-right: 24px;
+}
+
+body {
+  background-color: #011627;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-items: space-between;
+}
+
+main {
+  margin: 40px 24px 80px 24px;
+  max-width: 1920px;
+}
+
+h1, h2, h3, h4 {
+  font-family: 'Montserrat';
+  color: #FDFFFC;
+}
+
+h2 {
+  font-size: 1.6em;
+}
+
+h3 {
+  font-size: 1.3em;
+}
+
+p {
+  font-family: 'Source Sans Pro';
+  font-size: 1.1em;
+  color: #FDFFFC;
+  margin-top: 16px;
+  line-height: 1.6;
+}
+
+.intro {
+  max-width: 700px;
+  font-size: 1.15em;
+}
+
+.card-container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 80px 24px;
+  margin: 100px 0 24px 0;
+  justify-content: center;
+}
+
+
+article {
+  background-color: #1a2d3d;
+  border-radius: 6px;
+  min-width: 150px;
+  max-width: 300px;
+  flex-grow: 1;
+  padding: 16px;
+  text-align: center;
+  box-shadow: 3px 3px 24px 1px rgba(1, 15, 27, 1);
+}
+
+address {
+  text-align: left;
+  padding: 8px 0;
+}
+
+article a {
+  color: #FDFFFC;
+  font-style: normal;
+  text-decoration: none;
+  padding-bottom: 2px;
+  border-bottom: 1px solid #FDFFFC;
+}
+
+article img {
+  width: 60%;
+  object-fit: contain;
+  border-radius: 50%;
+  border: 10px solid #01121f;
+  margin: -70px 0 12px auto;
+  object-position: center top;
+}
+
+i {
+  margin-right: 16px;
+}
+
+.contact-icon {
+  color: #ccd0d4;
+}
+
+footer {
+  background-color: #000910;
+  padding: 40px 24px;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+  margin-top: auto;
+}
+
+.company-contact-info address, .company-contact-info p  {
+  padding: 4;
+  margin: 0;
+  font-style: normal;
+}
+
+@media screen and (max-width: 576px) {
+  header {
+    flex-direction: column;
+    padding-bottom: 24px;
+  }
+  #logo {
+    margin: 0;
+  }
+  footer {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+}
